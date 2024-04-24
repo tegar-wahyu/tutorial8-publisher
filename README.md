@@ -11,3 +11,11 @@
 
 ### Sending and processing event.
 ![alt text](images/Sending&Processing.png)
+
+### Monitoring chart based on publisher.
+![alt text](images/MonitorChart.png)
+> Jika dijalankan cargo run berkali-kali dalam satu detik, maka laju "Publish" akan meningkat pada periode tersebut seperti yang ditunjukkan oleh puncak-puncak pada grafik.
+>
+> Sebaliknya, jika dijalankan cargo run sekali dalam satu detik, maka laju "Publish" akan lebih rendah pada periode tersebut, seperti yang ditunjukkan oleh lembah-lembah pada grafik.
+>
+>Hal ini menunjukkan bahwa message rates yang diterima oleh message broker RabbitMQ akan meningkat seiring dengan meningkatnya jumlah pesan yang di-publish oleh publisher dalam satu periode waktu tertentu. Semakin banyak pesan yang diterbitkan dalam satu detik, semakin tinggi laju pesan yang ditunjukkan pada grafik.
