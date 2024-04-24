@@ -8,3 +8,6 @@
 
 ### Running RabbitMQ as message broker.
 ![alt text](images/InitialRabbitMQ.png)
+
+### Sending and processing event.
+![alt text](images/Sending&Processing.png)
